@@ -1,0 +1,40 @@
+.figura{
+    display: inline-block;
+    text-align: center;
+    font-size: 11px;
+}
+.commenter_block{
+
+}
+.commenter_input{
+    resize: none;
+    width: 66%;
+    vertical-align: bottom;
+    height: 73px;
+}
+.commenter_submit{
+    vertical-align: super;
+    height: 79px;
+}
+.commenter{
+    vertical-align: bottom;
+}
+.img{
+    width: auto;
+    border-radius: 5px;
+}
+.text{
+    margin-left: -3%;
+    vertical-align: super;
+}
+.block{
+    text-align: left;
+    border: 1px;
+    margin-left: -15px;
+    margin-top: 16px;
+    box-shadow: 0 0 2px darkred;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,71 @@
+.textDecoration {
+    font-size: 40px;
+    background-color: black;
+    color: blue;
+}
+img {
+    width: 210px;
+}
+.inputText{
+    display: inline;
+    background-color: indianred;
+    border: 2px solid;
+    border-radius: 60px;
+    box-shadow: 5px 5px 5px darkslategrey;
+    font-family: Comic Sans MS, Comic Sans, cursive
+}
+.user_img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+.usernameBlock{
+    grid-column: wform;
+    margin-top: -20%;
+    margin-left: -5%;
+    text-align: right;
+    display: inline-block;
+}
+.username{
+    display: inline-block;
+    grid-column: wform;
+    padding-right: 16px;
+    /* margin-top: 8%; */
+    /* text-align: right; */
+    border-radius: 8px;
+    padding: 4px;
+
+
+
+}
+.inputButton{
+    border-radius: 33%;
+    margin-left: 3%;
+    margin-right: 2%;/*http://*/
+    background-image: url(http://localhost:3000/api/searchIco);
+    width: 25px;
+    height: 22px;
+    padding: 2%;
+    border: 0 solid;
+    background-repeat: no-repeat;
+    background-size: 93% 94%;
+    background-color: indianred;
+    display: inline;
+}
+.wform input{
+    outline: none;
+}
+.wform{
+    grid-column: wform;
+    margin-top: 8%;
+    text-align: right;
+    display: inline-block
+}
+
+.menuCase{
+    margin-top: 6%;
+    display: inline-block;
+    /* text-align: center; */
+    vertical-align: top;
+}

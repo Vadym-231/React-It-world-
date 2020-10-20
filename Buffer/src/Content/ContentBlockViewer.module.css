@@ -1,0 +1,50 @@
+/*
+margin-bottom: 23px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    box-shadow: 0 0 16px darkslategrey;
+    float: left;
+    border-radius: 10%;
+    padding: 3%;
+    height: 330px;
+    width: 35%;
+ */
+
+.blockContent{
+    grid-column: cont;
+    text-align: center;
+}
+
+.blockFigura{
+    margin-bottom: 23px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    box-shadow: 0 0 16px darkred;
+    float: left;
+   /* border-radius: 10%;*/
+    padding: 3%;
+    height: 330px;
+    width: 35%;
+
+}
+.mainBlock{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 12%;
+}
+.blockImg{
+    width: 90%;
+    border-radius: 24px;
+    height: 160px;
+}
+.blockDate{
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+.blockTitle{
+    text-align: center;
+}

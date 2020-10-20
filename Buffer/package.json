@@ -1,0 +1,59 @@
+{
+  "name": "untitled19",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "autoprefixer": "^9.8.6",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux-oauth2": "^0.5.14",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build": "webpack --inline --content-base  --history-api-fallback",
+    "start": "webpack --watch"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.9.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.6.0",
+    "install": "^0.13.0",
+    "postcss": "^8.0.5",
+    "postcss-loader": "^3.0.0",
+    "postcss-modules-values": "^3.0.0",
+    "prop-types": "^15.7.2",
+    "react-facebook-login": "^4.1.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
